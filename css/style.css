@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 1440px;
+  padding: 0 170px;
+}
+.head {
+  max-width: 1440px;
+  width: 1400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 24px;
+  padding-top: 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.nav_item {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+}
+.nav_btn {
+  justify-content: right;
+  width: 189px;
+  height: 47px;
+  border-radius: 10px;
+  margin-left: 38px;
+  background-color: #de2e54;
+  color: white;
+}
+.hero_sec {
+  display: flex;
+  margin-top: 15px;
+  max-width: 1440px;
+  align-items: center;
+  background-color: #0eb4c1;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+.hero_pic {
+  width: 423px;
+  height: 504px;
+}
+.hero_img {
+  width: 100%;
+  height: 100%;
+}
+.hero_article {
+  width: 550px;
+  height: 293px;
+}
+.healing {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Open Sans;
+}
+.healing_article {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-family: Open Sans;
+}
+.healing_btn {
+  width: 189px;
+  height: 47px;
+  border-radius: 10px;
+
+  background-color: #de2e54;
+  color: white;
+}
+.main {
+  max-width: 1440px;
+}
+.service {
+  text-align: center;
+}
+.service_article {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.desc {
+  align-items: center;
+  margin-top: 20px;
+  font-family: Open Sans;
+}
+.services {
+  text-align: center;
+  margin-top: 55px;
+}

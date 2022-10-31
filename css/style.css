@@ -30,7 +30,20 @@
   justify-content: center;
   margin: 0;
   text-decoration: none;
-  
+}
+.nav_link:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #de2e54;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .nav_btn {
   justify-content: right;
@@ -40,6 +53,18 @@
   margin-left: 38px;
   background-color: #de2e54;
   color: white;
+}
+.nav_btn:hover {
+  width: 189px;
+  height: 47px;
+
+  background: #ffffff;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  color: #ff0000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 .hero_sec {
   display: flex;
@@ -73,11 +98,15 @@
   font-family: Open Sans;
 }
 .healing_btn {
+  font-family: "Open Sans";
+  font-size: 15px;
   width: 189px;
   height: 47px;
-  border-radius: 10px;
 
-  background-color: #de2e54;
+  border: none;
+  background: rgba(222, 46, 84, 0.8);
+  border-radius: 8px;
+
   color: white;
 }
 .main {
@@ -100,6 +129,26 @@
 .services {
   text-align: center;
   margin-top: 55px;
+}
+
+.main-btn {
+  width: 189px;
+  height: 47px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  margin-bottom: 120px;
+  margin-top: 60px;
+  background: #de2e54;
+  border: 2px solid #de2e54;
+  color: white;
+  border-radius: 8px;
+  margin-left: 350px;
+}
+.main-btn:hover {
+  background: #ffffff;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  color: #ff0000;
 }
 
 .footer {
@@ -127,6 +176,17 @@
   background-color: #0eb4c1;
   color: white;
 }
+.btn:hover {
+  background: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 15px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .footer_ending {
   max-width: 1400px;
 
@@ -146,6 +206,19 @@
   text-decoration: none;
   color: white;
 }
+.link:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #de2e54;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .footer_item {
   display: flex;
   list-style: none;
@@ -154,7 +227,39 @@
   margin: 0;
   text-decoration: none;
 }
-.nav_link{
-    text-decoration: none;
-    color: black;
+.nav_link {
+  text-decoration: none;
+  color: black;
+}
+.bottom-icon {
+  text-decoration: none;
+  display: flex;
+  width: 119px;
+  color: white;
+  padding-right: 500px;
+}
+.bottom-icon:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #de2e54;
+}
+.top-icon {
+  text-decoration: none;
+  display: flex;
+  font-family: "Open Sans";
+  width: 119px;
+  margin-left: 10px;
+  color: black;
+  padding-right: 500px;
+}
+.top-icon:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #de2e54;
 }
